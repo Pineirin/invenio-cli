@@ -9,6 +9,7 @@
 
 
 import click
+import os
 
 from ..commands import AssetsCommands, PackagesCommands
 from .utils import pass_cli_config, run_steps
